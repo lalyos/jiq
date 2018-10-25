@@ -1,3 +1,11 @@
+The whole purpose of this fork/release is to provide a one-liner binary install.
+Install on osx/linux:
+
+```
+curl -sL https://github.com/lalyos/jiq/releases/download/0.6.0/jiq_$(uname)_amd64.tgz \
+  | tar -xz -C /usr/local/bin/
+```
+
 # jiq [![Mentioned in Awesome jq](https://awesome.re/mentioned-badge.svg)](https://github.com/fiatjaf/awesome-jq)
 
 It's [jid](https://github.com/simeji/jid) with [jq](https://stedolan.github.io/jq/).
